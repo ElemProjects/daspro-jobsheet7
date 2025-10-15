@@ -10,6 +10,7 @@ public class SiakadWhile13 {
         jml = sc.nextInt();
 
         while (i<jml) {
+
             System.out.println("Masukkan nilai mahasiswa ke-" + (i+1) + ": ");
             nilai = sc.nextInt();
             
@@ -20,6 +21,7 @@ public class SiakadWhile13 {
             }
             if (nilai>80 && nilai <=100) {
                 System.out.println("Nilai mahasiswa ke-" + (i+1) + " adalah A");
+                System.out.println("Bagus, pertahankan nilainya!");
                 
             }
             else if (nilai>73 && nilai <=80) {
